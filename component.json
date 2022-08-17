@@ -14,13 +14,13 @@
   },
   "actions": {},
   "triggers": {
-    "webhook-Test": {
-      "main": "./src/triggers/webhook-Test.js",
+    "webhookTest": {
+      "main": "./src/triggers/webhookTest.js",
       "title": "webhook-test",
       "type": "webhook",
       "help": {
         "description": "",
-        "link": "/webhook-test-component/#webhook--test"
+        "link": "/webhook-test-component/#webhook-test"
       },
       "fields": {},
       "dynamicMetadata": true
