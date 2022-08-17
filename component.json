@@ -1,28 +1,29 @@
 {
   "title": "webhook-test-component",
   "description": "webhook-test component",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "credentials": {
     "fields": {
       "url": {
         "viewClass": "TextFieldView",
-        "label": "API Base URI",
-        "required": true,
+        "label": "URI",
+        "required": false,
         "placeholder": "http://localhost:3000"
-      },
-      "username": {
-        "viewClass": "TextFieldView",
-        "label": "Username",
-        "required": true,
-        "placeholder": "myUsername"
-      },
-      "password": {
-        "viewClass": "PasswordFieldView",
-        "label": "Password",
-        "required": true
       }
     }
   },
   "actions": {},
-  "triggers": {}
+  "triggers": {
+    "webhook-Test": {
+      "main": "./src/triggers/webhook-Test.js",
+      "title": "webhook-test",
+      "type": "webhook",
+      "help": {
+        "description": "",
+        "link": "/webhook-test-component/#webhook--test"
+      },
+      "fields": {},
+      "dynamicMetadata": true
+    }
+  }
 }

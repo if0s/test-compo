@@ -5,7 +5,8 @@
 * [Description](#description)
 * [Credentials](#credentials)
 * [Actions](#actions)
-* [Triggers](#triggers)
+* [Triggers](#triggers) 
+ * [webhook-test](#webhook--test)
 
 ## Description
 
@@ -20,4 +21,20 @@ Component credentials configuration fields:
 
 ## Actions
 
-## Triggers
+## Triggers 
+ 
+### webhook-test 
+
+desc
+
+#### Configuration Fields
+
+* **Field** - (string, required): desc
+
+#### Input Metadata
+
+* **Lookup Criteria Value** - (string, required): desc
+
+#### Output Metadata
+
+output
